@@ -1,0 +1,83 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+.image4 {
+    background-color: #490D40;
+    background: url(https://papers.co/wallpaper/papers.co-af67-mountain-art-illust-anime-peaceful-36-3840x2400-4k-wallpaper.jpg) no-repeat center center;
+    background-size: cover;
+    height: 1000px;
+    margin-top: -20px;
+    position: fixed top;
+  }
+
+.contactus{
+    width: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: rgb(255, 246, 117);
+  }
+  .contactus-h1{
+    float: left;
+    font-size: 9.3vh;
+    border-bottom: 6px solid #fbf1ff;
+    margin-bottom: 50px;
+    padding: 13px 0;
+  }
+
+  .textbox{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 2px solid #faecff;
+  }
+  .textbox i{
+    width: 26px;
+    float: left;
+    text-align: center;
+  }
+  .textbox input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+  }
+
+  .textbox input placeholder{
+    color:#ffffff;
+  }
+
+  .btn1{
+    width: 100%;
+    background: none;
+    border: 3px solid #faecff;
+    color: white;
+    padding: 5px;
+    font-size: 2.3vh;
+    cursor: pointer;
+    margin: 12px 0;
+  }
+
+  .link1{
+    color: white;
+    font-size: 2.3vh;
+  }
+
+  .icons li{
+    display: inline-block;
+    line-height: 500%;
+    margin: 0% 0%;
+  }
+
+  .icons li i{
+    color: white;
+    font-size: 4.3vh;
+    padding: 1vw 0.7vw;
+    border-radius: 15%;
+    text-transform: uppercase;    
+  }

@@ -1,0 +1,128 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+
+.body1{
+  font-family: montserrat;
+  background-color:#484848
+}
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-wrap: wrap;
+ max-width: 75%;
+ margin: 8% 0;
+ margin-left: 16%;
+}
+
+.container .card {
+ position: relative;
+ min-width: 25%;
+ height: 55vh;
+ box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+   inset -5px -5px 15px rgba(255, 255, 255, 0.1),
+   5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 15px rgba(255, 255, 255, 0.1);
+ border-radius: 3%;
+ margin: 4%;
+ transition: 0.5s;
+}
+
+.container .card:nth-child(1) .box .content ac {
+ background: #2196f3;
+}
+
+.container .card:nth-child(2) .box .content ac {
+ background: #e91e63;
+}
+
+.container .card:nth-child(3) .box .content ac {
+ background: #23c186;
+}
+
+.container .card .box {
+ position: absolute;
+ top: 4%;
+ left: 4%;
+ right: 4%;
+ bottom: 4%;
+ background: #2a2b2f;
+ border-radius: 15px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+ transition: 0.5s;
+}
+
+.container .card .box:hover {
+ transform: translateY(-50px);
+}
+
+.container .card .box:before {
+ content: "";
+ position: absolute;
+ top: 0%;
+ left: 0%;
+ width: 50%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.03);
+}
+
+.container .card .box .content {
+ padding: 1%;
+ text-align: center;
+}
+
+.container .card .box .content h2 {
+ position: absolute;
+ top: 5%;
+ right: 1%;
+ font-size: 13.5vh;
+ color: rgba(255, 255, 255, 0.1);
+}
+
+.container .card .box .content h3 {
+ font-size: 4vh;
+ color: #fff;
+ z-index: 1;
+ transition: 0.5s;
+ margin-bottom: 10%;
+ margin-top:  50%;
+}
+
+.container .card .box .content p {
+ font-size: 2vh;
+ 
+ font-weight: 300;
+ color: rgba(255, 255, 255, 0.9);
+ z-index: 1;
+ transition: 0.5s;
+}
+
+.container .card .box .content ac {
+ position: relative;
+ display: inline-block;
+ padding: 4% 6%;
+ background: black;
+ border-radius: 10%;
+ text-decoration: none;
+ color: white;
+ margin-top: 12%;
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ transition: 0.5s;
+ font-size: 2vh;
+}
+.container .card .box .content ac:hover {
+ box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+ background: #fff;
+ color: #000;
+}
+.image {
+  background-color: #490D40;
+  background: url(https://wallpaperaccess.com/full/338694.jpg) no-repeat center center;
+  background-size: cover;
+  height: 570px;
+  margin-top: -20px;
+  position: fixed top;
+}

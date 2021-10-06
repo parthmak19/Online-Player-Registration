@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .image5 {
+    min-height: 100vh;
+    background-image: url(https://images4.alphacoders.com/587/thumb-1920-587526.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px;
+  }
+  
+  .content11 {
+    background: rgb(184, 180, 180);
+    padding: 15px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+  }
+
+  .content11  h1{
+    text-align: center;
+    color:rgb(46, 42, 42);
+    font-size: 6vh;
+  }
+
+  .content11  p{
+    text-align: center;
+    color:rgb(46, 42, 42);
+    font-size: 2.1vh;
+  }

@@ -1,0 +1,9 @@
+footer {
+    text-align:center;
+    font-size:3vh;
+    color:rgb(204, 204, 204);
+    margin-bottom:0;
+    bottom: 0;
+    position: bottom;
+    left: 40%;
+  }
